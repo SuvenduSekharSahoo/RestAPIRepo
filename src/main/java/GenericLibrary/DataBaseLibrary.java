@@ -9,9 +9,10 @@ import com.mysql.cj.jdbc.Driver;
 
 public class DataBaseLibrary {
 
-	/**
+	 /*
 	 * establish the connection with mysql DB
 	 */
+	
 	Driver driverRef;
 	Connection conn;
 	public void connectToDB() throws SQLException

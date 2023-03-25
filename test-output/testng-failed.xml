@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BasicCrudOperations.CreateAndValidateInDB">
+      <class name="Authentication.Oauth2_0">
         <methods>
-          <include name="createAndValidateInDB"/>
-          <include name="bsConfig"/>
-          <include name="asConfig"/>
+          <include name="oauth2_0"/>
         </methods>
-      </class> <!-- BasicCrudOperations.CreateAndValidateInDB -->
+      </class> <!-- Authentication.Oauth2_0 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

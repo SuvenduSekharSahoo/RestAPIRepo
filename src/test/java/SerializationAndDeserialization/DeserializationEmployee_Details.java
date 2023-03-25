@@ -17,7 +17,7 @@ public class DeserializationEmployee_Details {
 	{
 		ObjectMapper objm = new ObjectMapper();
 		Employee_Details e1 = objm.readValue(new File(".\\EmployeeDetails.json"), Employee_Details.class);
-		System.out.println(e1.getAddress());
+		System.out.println(e1.getAddress());                                          //pojo class
 		System.out.println(e1.getName());
 	}
 }
